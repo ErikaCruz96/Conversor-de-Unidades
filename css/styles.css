@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;/*para os inputs não passarem da largura */
+}
+
+body{
+    background-color: rgb(67, 126, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 2px solid #ccc;
+    color: #5f5f5f;
+}
+.input-group{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    border-bottom: 2px solid #ccc;
+    padding: 0.5rem;
+}
+.input-group input,
+.input-group select{
+    padding: .5rem;
+}
+.input-group label{
+    font-weight: bold;
+    color: #5f5f5f;
+}
+#convert-btn{
+    background-color: rgb(67, 126, 126);
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+#convert-btn:hover{
+    background-color: rgb(100, 185, 185);
+}
+.output-group{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding: 0.5rem;
+}
+.output-group input{
+    padding: 0.5rem;
+}
+#message{
+    color:rgb(35, 63, 63);
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
